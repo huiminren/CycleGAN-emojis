@@ -4,24 +4,22 @@
 
 * D_X_loss1 = ((D_X(images_X)-1)\**2).sum()/len(images_X)
 
-<p align="center">
-<img src="samples_cyclegan_div/sample-001000-X-Y.png">
-<img src="samples_cyclegan_div/sample-020000-X-Y.png">
-<img src="samples_cyclegan_div/sample-040000-X-Y.png">
-</p>
+|      sample-001000-X-Y   |   sample-020000-X-Y       |   sample-040000-X-Y   |
+|:------------------------:|:-------------------------:|:---------------------:|
+|<img src="samples_cyclegan_div/sample-001000-X-Y.png" width="100%">|<img src="samples_cyclegan_div/sample-020000-X-Y.png" width="100%">|<img src="samples_cyclegan_div/sample-040000-X-Y.png" width="100%">|
+
 
 * D_X_loss2 = torch.mean((D_X(images_X)-1)\**2) 
-<p align="center">
-<img src="samples_cyclegan_torchmean/sample-001000-X-Y.png">
-<img src="samples_cyclegan_torchmean/sample-020000-X-Y.png">
-<img src="samples_cyclegan_torchmean/sample-040000-X-Y.png">
-</p>
+
+|      sample-001000-X-Y   |   sample-020000-X-Y       |   sample-040000-X-Y   |
+|:------------------------:|:-------------------------:|:---------------------:|
+|<img src="samples_cyclegan_torchmean/sample-001000-X-Y.png" width="100%">|<img src="samples_cyclegan_torchmean/sample-020000-X-Y.png" width="100%">|<img src="samples_cyclegan_torchmean/sample-040000-X-Y.png" width="100%">|
+
 * D_X_loss3 = criterion(D_X(images_X),real_labels_X)
-<p align="center">
-<img src="samples_cyclegan_criterion/sample-001000-X-Y.png">
-<img src="samples_cyclegan_criterion/sample-020000-X-Y.png">
-<img src="samples_cyclegan_criterion/sample-040000-X-Y.png">
-</p>
+
+|      sample-001000-X-Y   |   sample-020000-X-Y       |   sample-040000-X-Y   |
+|:------------------------:|:-------------------------:|:---------------------:|
+|<img src="samples_cyclegan_criterion/sample-001000-X-Y.png" width="100%">|<img src="samples_cyclegan_criterion/sample-020000-X-Y.png" width="100%">|<img src="samples_cyclegan_criterion/sample-040000-X-Y.png" width="100%">|
 
 ## Acknowlegements
 This code is inspired by [pytorch-cycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix).
