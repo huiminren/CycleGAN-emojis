@@ -2,7 +2,13 @@
 
 ## Comparison of Loss Functions
 
-* D_X_loss1 = ((D_X(images_X)-1)**2).sum()/len(images_X)
+* D_X_loss1 = ((D_X(images_X)-1)\**2).sum()/len(images_X)
+
+<p align="center">
+<img src="samples_cyclegan_div/sample-001000-X-Y.png">
+<img src="samples_cyclegan_div/sample-040000-X-Y.png" >
+</p>
+
 
 * D_X_loss2 = torch.mean((D_X(images_X)-1)**2) 
 
