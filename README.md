@@ -21,6 +21,12 @@
 |:------------------------:|:-------------------------:|:---------------------:|
 |<img src="samples_cyclegan_criterion/sample-001000-X-Y.png" width="100%">|<img src="samples_cyclegan_criterion/sample-020000-X-Y.png" width="100%">|<img src="samples_cyclegan_criterion/sample-040000-X-Y.png" width="100%">|
 
+* Loss plots
+
+|      Loss1   |   Loss2       |   Loss3   |
+|:------------:|:-------------:|:---------:|
+|<img src="samples_cyclegan_div/Loss.png" width="100%">|<img src="samples_cyclegan_torchmean/Loss.png" width="100%">|<img src="samples_cyclegan_criterion/Loss.png" width="100%">|
+
 ## Acknowlegements
 This code is inspired by [pytorch-cycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix).
 
