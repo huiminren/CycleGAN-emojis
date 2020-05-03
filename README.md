@@ -6,13 +6,19 @@
 
 <p align="center">
 <img src="samples_cyclegan_div/sample-001000-X-Y.png">
-<img src="samples_cyclegan_div/sample-040000-X-Y.png" >
+<img src="samples_cyclegan_div/sample-020000-X-Y.png">
+<img src="samples_cyclegan_div/sample-040000-X-Y.png">
 </p>
 
-
-* D_X_loss2 = torch.mean((D_X(images_X)-1)**2) 
+* D_X_loss2 = torch.mean((D_X(images_X)-1)\**2) 
+<img src="samples_cyclegan_torchmean/sample-001000-X-Y.png">
+<img src="samples_cyclegan_torchmean/sample-020000-X-Y.png">
+<img src="samples_cyclegan_torchmean/sample-040000-X-Y.png">
 
 * D_X_loss3 = criterion(D_X(images_X),real_labels_X)
+<img src="samples_cyclegan_criterion/sample-001000-X-Y.png">
+<img src="samples_cyclegan_criterion/sample-020000-X-Y.png">
+<img src="samples_cyclegan_criterion/sample-040000-X-Y.png">
 
 ## Acknowlegements
 
