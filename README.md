@@ -22,8 +22,8 @@
 <img src="samples_cyclegan_criterion/sample-020000-X-Y.png">
 <img src="samples_cyclegan_criterion/sample-040000-X-Y.png">
 </p>
-## Acknowlegements
 
+## Acknowlegements
 This code is inspired by [pytorch-cycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix).
 
 Thanks [Luois](https://github.com/lluo5779/CSC321/tree/master/4.%20GAN%20and%20CycleGan) and 
